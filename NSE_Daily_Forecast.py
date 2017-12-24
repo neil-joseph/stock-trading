@@ -1833,8 +1833,8 @@ for stock in stocks:
         feature_cols.append('Volume')   
         feature_cols.append('% Change')
         #stock_data = stock_data[feature_cols]
-        stock_data = stock_data[200:]
-        features = features[200:]
+        #stock_data = stock_data[200:]
+        #features = features[200:]
         #print (features)
         if features.shape[0] > 400:
             features = normalize_features(features)
